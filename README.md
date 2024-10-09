@@ -19,5 +19,5 @@ $ ./filename
 
 ## case2 : cmake
 ```
-$ go build filename.go
-$ ./filename
+
+```
