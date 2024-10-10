@@ -5,7 +5,7 @@ sudo apt install gcc
 sudo apt install libpcap-dev
 ```
 
-# install
+# authority
 ```
 $ sudo groupadd pcap
 $ sudo usermod -a -G pcap $USER
