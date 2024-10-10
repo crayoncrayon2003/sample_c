@@ -1,0 +1,5 @@
+```
+mkdir build
+cmake ...
+make
+```
