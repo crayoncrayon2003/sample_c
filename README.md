@@ -19,5 +19,7 @@ $ ./filename
 
 ## case2 : cmake
 ```
-
+$ mkdir build
+$ cmake .
+$ make
 ```
