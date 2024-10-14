@@ -5,7 +5,7 @@
 #include <netinet/in.h>
 #include <netinet/tcp.h>
 
-void printTcp(struct tcphdr *tcp);
+static void printTcp(struct tcphdr *tcp);
 extern int analyserTcp(const unsigned char *frame);
 
 #endif

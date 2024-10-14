@@ -5,7 +5,7 @@
 #include <netinet/in.h>
 #include <netinet/udp.h>
 
-void printUdp(struct udphdr *udp);
+static void printUdp(struct udphdr *udp);
 extern int analyserUdp(const unsigned char *frame);
 
 #endif

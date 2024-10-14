@@ -9,8 +9,8 @@
 #define IP_UDP  0x17
 
 
-char *ip_ntoa(u_int32_t ip);
-void printIp(struct iphdr *ip);
+static char *ip_ntoa(u_int32_t ip);
+static void printIp(struct iphdr *ip);
 extern int analyserIp(const unsigned char *frame);
 
 #endif
