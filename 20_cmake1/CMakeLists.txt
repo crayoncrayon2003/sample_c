@@ -1,15 +1,15 @@
-# CMakeのバージョンを設定
+# setting CMake VERSION
 cmake_minimum_required(VERSION 2.8)
 
-# プロジェクト名と使用する言語を設定
-project(test_cmake C)     # Cの場合
-# project(test_cmake CXX) # CPPファイルの場合
+# setting project name and project langes
+project(test_cmake C)     # case c
+# project(test_cmake CXX) # case c++
 
-# good_morning.cppをコンパイルして静的ライブラリlibgreetings.aを作成
+# Compile good_morning.cpp and create static library libgreetings.a
 add_library(greetings STATIC good_morning.c)
 
-# hello.c main.cからa.outを作成
+# create a.out by hello.c, main.c
 add_executable(a.out hello.c main.c)
 
-# a.outを作成するときに、greetingsをリンク
+# link "greetings" to a.out
 target_link_libraries(a.out greetings)
